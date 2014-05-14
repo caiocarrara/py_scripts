@@ -29,7 +29,7 @@ if __name__ == "__main__":
 		if arg.startswith('base_dir='):
 			base_dir_index = argv.index(arg)
 			base_dir = arg.split('=')[1]
-	
+
 	if base_dir_index:
 		argv.pop(base_dir_index)
 
